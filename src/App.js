@@ -15,9 +15,20 @@ function App() {
         <a href="#contact" style={{ color: 'white' }}>Contact</a>
       </nav>
 
-      <h1>Welcome to the Navbar Page</h1>
+      <h1>Welcome to the Form Page</h1>
+      <form>
+        <label>
+          Name:
+          <input type="text" name="name" />
+        </label><br /><br />
+        <label>
+          Email:
+          <input type="email" name="email" />
+        </label><br /><br />
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 }
 
-export default App;
+export default App;
