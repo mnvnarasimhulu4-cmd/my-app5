@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav style={{
+        backgroundColor: '#282c34',
+        padding: '10px',
+        display: 'flex',
+        justifyContent: 'space-around',
+        color: 'white'
+      }}>
+        <a href="#home" style={{ color: 'white' }}>Home</a>
+        <a href="#about" style={{ color: 'white' }}>About</a>
+        <a href="#contact" style={{ color: 'white' }}>Contact</a>
+      </nav>
+
+      <h1>Welcome to the Navbar Page</h1>
     </div>
   );
 }
 
-export default App;
+export default App;
